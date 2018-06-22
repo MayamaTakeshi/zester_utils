@@ -2079,9 +2079,9 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-"mysql@git+https://github.com/MayamaTakeshi/mysql.git":
+"mysql@https://github.com/MayamaTakeshi/mysql":
   version "2.15.0"
-  resolved "git+https://github.com/MayamaTakeshi/mysql.git#46be119f25c77fb0c49ae11f103bcc891d7726a8"
+  resolved "https://github.com/MayamaTakeshi/mysql#46be119f25c77fb0c49ae11f103bcc891d7726a8"
   dependencies:
     bignumber.js "4.0.4"
     readable-stream "2.3.3"
