@@ -1,0 +1,35 @@
+{
+  "name": "zester_utils",
+  "version": "1.0.0",
+  "description": "Utilities for writing tests to run using zester",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayamaTakeshi/zester_utils.git"
+  },
+  "keywords": [
+    "testing",
+    "zester",
+    "automated",
+    "server",
+    "simulation"
+  ],
+  "author": "MayamaTakeshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MayamaTakeshi/zester_utils/issues"
+  },
+  "homepage": "https://github.com/MayamaTakeshi/zester_utils#readme",
+  "dependencies": {
+    "deasync": "0.1.12",
+    "node-redis-protocol": "0.0.5",
+    "ps-node": "0.1.6",
+    "querystring": "0.2.0",
+    "redis-proto": "2.1.0",
+    "test_spec_generator": "https://github.com/MayamaTakeshi/test_spec_generator",
+    "zester": "2.10.0"
+  }
+}
