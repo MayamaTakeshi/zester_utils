@@ -1,6 +1,6 @@
 {
   "name": "zester_utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Utilities for writing tests to run using zester",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,9 @@
   "homepage": "https://github.com/MayamaTakeshi/zester_utils#readme",
   "dependencies": {
     "deasync": "0.1.12",
+    "merge": "^1.2.1",
     "mysql": "https://github.com/MayamaTakeshi/mysql",
-    "node-redis-protocol": "0.0.5",
+    "node-redis-protocol": "^0.0.5",
     "ps-node": "0.1.6",
     "querystring": "0.2.0",
     "redis-proto": "2.1.0",
