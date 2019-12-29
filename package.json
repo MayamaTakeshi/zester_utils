@@ -1,6 +1,6 @@
 {
   "name": "zester_utils",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Utilities for writing tests to run using zester",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "ps-node": "0.1.6",
     "querystring": "0.2.0",
     "redis-proto": "2.1.0",
-    "test_spec_generator": "^1.22.4",
-    "zester": "^2.20.1"
+    "test_spec_generator": "^1.22.5",
+    "zester": "^2.20.2"
   }
 }
