@@ -372,9 +372,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1:
   version "6.2.0"
@@ -827,15 +827,15 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-data-matching@^1.18.2:
-  version "1.18.2"
-  resolved "https://registry.yarnpkg.com/data-matching/-/data-matching-1.18.2.tgz#5aa93be90bf3504f2f645a097971fc2ff805a7af"
-  integrity sha512-x8BDdiM7rui+dCA3YQZtZHlomKsYDz4UyZb/tpGk6LkM9WVBnMXFD3BT1eQ79cil0SRDFGTf6LpCNG/6KPmjMQ==
+data-matching@^1.18.4:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/data-matching/-/data-matching-1.23.0.tgz#9ffa5ba6fa13a03078e9747631e648a503f4b566"
+  integrity sha512-x4yJ0YXaedQOkBdKMxdoXVFsBZ3pjx/g6ieAfxJfTPk5bU4tJPeB9MDWMaSz0OAqg45jfajhcIqYNNe0f6qXhA==
   dependencies:
     braces "^3.0.2"
     jest "^24.8.0"
     lodash "^4.17.11"
-    string-matching "^1.11.1"
+    string-matching "^1.11.2"
 
 data-urls@^1.0.0:
   version "1.1.0"
@@ -3322,10 +3322,10 @@ string-length@^2.0.0:
     astral-regex "^1.0.0"
     strip-ansi "^4.0.0"
 
-string-matching@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/string-matching/-/string-matching-1.11.1.tgz#6310b4876e25a9ca25096b9f8f5e6bd2948b48a2"
-  integrity sha512-+YW07M1qWsL1g4w+De/WHfiGsrh6Til91cVHTsQU8thtGNlg450tbrAf+QZjH0C2+GgPLwk27imH7v2CmmkQ8w==
+string-matching@^1.11.2:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/string-matching/-/string-matching-1.11.2.tgz#4cf69b5a533886c91a49690cd0c839f2c035d648"
+  integrity sha512-zfaJBfIVgfCKxuJIrzmys3pyGlTztEi4LUidiIG4CgCc7TFU0tQznYVNzLAnsHeZwMzvTFQlI9OcKe85J98Gtg==
   dependencies:
     merge "^1.2.1"
 
@@ -3445,13 +3445,13 @@ test-exclude@^5.2.3:
     read-pkg-up "^4.0.0"
     require-main-filename "^2.0.0"
 
-test_spec_generator@^1.22.4:
-  version "1.22.4"
-  resolved "https://registry.yarnpkg.com/test_spec_generator/-/test_spec_generator-1.22.4.tgz#20033b47bc562508bcb61086563abcd5959ac83a"
-  integrity sha512-mfaly/HC1Pt8Zk0PVpM/eBc/FjEx8jKMttNf6WFpyLSKwsIKvdEnjE9KjljWluIeZ0bm7lhqS9x+jOQEv2HJEA==
+test_spec_generator@^1.22.5:
+  version "1.22.5"
+  resolved "https://registry.yarnpkg.com/test_spec_generator/-/test_spec_generator-1.22.5.tgz#b545e4c40bde444eca9669a41ce0e065349e22e6"
+  integrity sha512-czmF9k/+bwdUIcZqVgNV9oncUaJpz/nDgZzBDk3wylD/8EDYO85ckGiXbFdlBiVxOJoHTtCxdd+jw9YqX0u04g==
   dependencies:
     clone "^2.1.1"
-    data-matching "^1.18.2"
+    data-matching "^1.18.4"
     lodash "^4.17.14"
     mysql_query_collector "^1.9.0"
     sexp_builder "^1.6.3"
@@ -3790,11 +3790,11 @@ yargs@^12.0.2:
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
 
-zester@^2.20.1:
-  version "2.20.1"
-  resolved "https://registry.yarnpkg.com/zester/-/zester-2.20.1.tgz#8232112612f3f39b67907f4bf27ee670aa9fd087"
-  integrity sha512-o0PXRxzB/DDBCjeio0lbaMcoQ1qrSTJiv6vJ+LVRFCHKZX7oeq1jOKvbNG2G/Fa7g6DGk1l7ZNsdjFr8vr1Y3A==
+zester@^2.20.2:
+  version "2.20.2"
+  resolved "https://registry.yarnpkg.com/zester/-/zester-2.20.2.tgz#92369c111bed97e960e7d24d208606b961335f27"
+  integrity sha512-45xkEPEQ8Xqg5yETDmsWYx3i0MauGe14aRcoHqE2dfnh1d4fhidieT7ww+zzFSnSMRMJZ1/66291MLRVFcluAg==
   dependencies:
     chalk "^2.3.0"
-    data-matching "^1.18.2"
+    data-matching "^1.18.4"
     deasync "^0.1.13"
