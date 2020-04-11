@@ -1,6 +1,6 @@
 {
   "name": "zester_utils",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Utilities for writing tests to run using zester",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/MayamaTakeshi/zester_utils#readme",
   "dependencies": {
-    "deasync": "0.1.12",
+    "deasync": "^0.1.19",
     "merge": "^1.2.1",
-    "mysql": "https://github.com/MayamaTakeshi/mysql",
-    "node-redis-protocol": "^0.0.5",
-    "ps-node": "0.1.6",
-    "querystring": "0.2.0",
-    "redis-proto": "2.1.0",
-    "test_spec_generator": "^1.22.5",
-    "zester": "^2.20.2"
+    "mysql": "^2.18.1",
+    "node-redis-protocol": "0.0.5",
+    "ps-node": "^0.1.6",
+    "querystring": "^0.2.0",
+    "redis-proto": "^2.1.0",
+    "test_spec_generator": "^1.22.8",
+    "zester": "^2.20.4"
   }
 }
