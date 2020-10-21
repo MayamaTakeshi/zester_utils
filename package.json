@@ -1,6 +1,6 @@
 {
   "name": "zester_utils",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "Utilities for writing tests to run using zester",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "deasync": "^0.1.19",
     "merge": "^1.2.1",
     "mysql": "^2.18.1",
-    "node-redis-protocol": "0.0.5",
+    "node-redis-protocol": "git+https://github.com/MayamaTakeshi/node-redis-protocol.git#00be82bd9398a731827ac09e5d5ddd5b7552d241",
     "ps-node": "^0.1.6",
     "querystring": "^0.2.0",
     "redis-proto": "^2.1.0",
