@@ -25,7 +25,7 @@
   "homepage": "https://github.com/MayamaTakeshi/zester_utils#readme",
   "dependencies": {
     "deasync": "^0.1.19",
-    "merge": "^1.2.1",
+    "merge": "^2.1.1",
     "mysql": "^2.18.1",
     "node-redis-protocol": "git+https://github.com/MayamaTakeshi/node-redis-protocol.git#00be82bd9398a731827ac09e5d5ddd5b7552d241",
     "ps-node": "^0.1.6",
